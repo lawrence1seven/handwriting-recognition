@@ -1,0 +1,7 @@
+We will be using a Dataset given by sachin patel. The name of this dataset is A-Z Handwritten Alphabets in.csv file. This dataset is basically a csv file which contains 372450 images of alphabets of 28×28 size
+
+This dataset can be utilized to develop machine learning models to recognize handwriitng based on the input parameters.
+
+. EMNIST dataset which consists of English alphabets and numbers are made useof to train the neural network.
+ EMNIST balanced dataset consist of 131,600images of characters and 47 classes .The feature extraction technique is obtainedby normalizing the pixel values. Pixel values will range from 0 to 255 whichrepresents the intensity of each pixel in the image and they are normalized torepresent value between 0 and 1. 
+Convolutional neural network is used as aclassifier which trains the EMNIST dataset. The work is extended by adding somemore dataset to EMNIST dataset of characters from Tamil language and trainingthe model. The prediction for the given input image is obtained from the trainedclassifier.
